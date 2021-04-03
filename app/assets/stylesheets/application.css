@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
- body {
+body {
     background-color: #fff;
     color: #333;
     font-family: verdana, arial, helvetica, sans-serif;
@@ -25,4 +25,22 @@
 a:hover {
     color: white;
     background-color: black;
+}
+
+p, ol, ul, td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+#notice {
+  color: green;
+}
+
+#error_explanation {
+    width: 450px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
 }
