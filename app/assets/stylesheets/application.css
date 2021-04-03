@@ -21,3 +21,8 @@
     line-height: 18px;
     margin: 33px;
 }
+
+a:hover {
+    color: white;
+    background-color: black;
+}
